@@ -6,10 +6,10 @@
       "packages/*"
     ],
     "nohoist": [
-      "react-native/**",
-      "**/react-native",
       "**/react",
-      "react/**"
+      "**/react-dom",
+      "**/react-native",
+      "**/react-native/**"
     ]
   },
   "devDependencies": {
