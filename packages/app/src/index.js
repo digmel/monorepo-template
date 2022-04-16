@@ -8,7 +8,7 @@ export function App() {
         flex: 1,
         backgroundColor: "green",
         justifyContent: "center",
-        alignContent: "center",
+        alignItems: "center",
       }}
     >
       <Text>Hello World</Text>
