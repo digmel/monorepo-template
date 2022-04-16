@@ -9,13 +9,16 @@
       "**/react",
       "**/react-dom",
       "**/react-native",
-      "**/react-native/**"
+      "**/react-native/**",
+      "**/react-native-web"
     ]
   },
   "devDependencies": {
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "reset": "rm -rf node_modules && rm -rf packages/*/node_modules && rm -rf yarn.lock"
+    "reset": "rm -rf node_modules && rm -rf packages/*/node_modules && rm -rf yarn.lock",
+    "web:start": "yarn workspace web start",
+    "web:build": "yarn workspace web build"
   }
 }

@@ -5,13 +5,13 @@ export function App() {
   return (
     <View
       style={{
-        flex: 1,
         backgroundColor: "green",
+        height: 900,
         justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <Text>Hello World</Text>
+      <Text style={{ fontSize: 32 }}>Hi, yes, yes, yeaH!</Text>
     </View>
   );
 }
